@@ -1,0 +1,36 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.encabezado{
+  background-color: rgba(153, 205, 50, 0.367);
+  padding: 3%
+  &_tema{
+    color: rgb(31, 71, 71);
+    text-align: center;
+    margin-top: 3%;
+    &_parrafo{
+      text-align: center;
+    }
+  }
+}
+hr{
+  border: 2px solid;
+  margin-bottom: 1%;
+}
+.main{
+  background-image: url("..img/pasted\imagen\o.png");
+  margin-bottom: 2%;
+  position: relative;
+
+
+}
+.contendor{
+  display: flex;
+  background-color: blue;
+}
+.info{
+  padding-bottom: 15rem;
+}
+
