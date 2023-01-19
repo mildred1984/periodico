@@ -1,17 +1,52 @@
-/* Error: Expected identifier.
- *    ,
- * 12 |     margin-top: 3%;
- *    |                    ^
- *    '
- *   assets\sass\style.scss 12:20  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected identifier.\a    \2577 \a 12 \2502      margin-top: 3%;\d\a    \2502                     ^\a    \2575 \a   assets\\sass\\style.scss 12:20  root stylesheet";
+* {
+  padding: 0%;
+  margin: 0%;
 }
+
+.encabezado {
+  background-color: rgba(153, 205, 50, 0.367);
+  padding: 3%;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Acme", sans-serif;
+}
+
+hr {
+  border: 2px solid;
+  margin-bottom: 1%;
+}
+
+.main__section {
+  position: relative;
+}
+.main__section__img {
+  position: absolute;
+}
+.main__section__titulo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+}
+.main__section__titulo .info {
+  background-color: rgb(24, 54, 53);
+  font-size: 25px;
+  width: 80%;
+  margin-top: 150px;
+  margin-left: 10%;
+  text-align: center;
+}
+.main__section__noticias {
+  position: absolute;
+  top: 442px;
+  left: 0;
+  z-index: 10;
+  color: #fff;
+}
+
+article {
+  display: flex;
+  background-color: rgb(75, 35, 35);
+}
+
+/*# sourceMappingURL=style.css.map */

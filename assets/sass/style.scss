@@ -5,32 +5,61 @@
 
 .encabezado{
   background-color: rgba(153, 205, 50, 0.367);
-  padding: 3%
-  &_tema{
-    color: rgb(31, 71, 71);
-    text-align: center;
-    margin-top: 3%;
-    &_parrafo{
-      text-align: center;
-    }
-  }
+  padding: 3%;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Acme', sans-serif;
+ 
 }
 hr{
   border: 2px solid;
   margin-bottom: 1%;
 }
+
 .main{
-  background-image: url("..img/pasted\imagen\o.png");
-  margin-bottom: 2%;
-  position: relative;
+
+  &__section{
+    position: relative;
+    
+    &__img {
+      position: absolute;
+    }
+
+    &__titulo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: #fff;
+
+      .info{
+        background-color: rgb(24, 54, 53);
+        font-size: 25px;
+        width: 80%;
+        margin-top:150px;
+        margin-left: 10%;
+        text-align: center;
 
 
-}
-.contendor{
+      }
+
+      
+    }
+
+    &__noticias {
+      position: absolute;
+      top: 442px;
+      left: 0;
+      z-index: 10;
+      color: #fff;
+
+    }
+  }
+  
+  }
+
+
+article{
   display: flex;
-  background-color: blue;
+  background-color: rgb(75, 35, 35);
+  
 }
-.info{
-  padding-bottom: 15rem;
-}
-
